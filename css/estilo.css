@@ -1,0 +1,49 @@
+body{
+
+}
+
+.nav-link{
+	color: white;
+	font-size: 14pt; 
+}
+
+.nav-link:hover{
+	color: white;
+	font-size: 16pt;
+}
+
+.perfil{
+	border-radius: 50px;
+}
+
+.dropdown{
+	width: 550px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+}
+
+.menudrop{
+	align-content: center;
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+.btn-secondary{
+	width: 550px;
+}
+
+#dropdownMenu2{
+	text-align: left;
+	align-items: center;
+	width: 550px;
+	height: 102px;	
+	border-radius: 0px;
+	color: black;
+	background-color: white;
+}
+
+.dropdown-toggle{
+	width: 20px;
+	height: 20px;
+	text-align: right;
+}
