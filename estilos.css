@@ -1,0 +1,52 @@
+
+
+
+.nav-link {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: image('searchicon.png');
+    background-position: 8px 10px; 
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+
+
+
+.nav{
+    color: white;
+}
+
+.footer{
+    padding: 50px;
+}
+.container-footer{
+    background: #FFFFFF;
+    color: red;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer-center{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
