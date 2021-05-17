@@ -12,7 +12,9 @@
 .navbar-brand:hover{
     color: white;
 }
-
+.nav-link:hover{
+    color:white;
+}
 p{
     color: white;
     margin-left: 30%;
