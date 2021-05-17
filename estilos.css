@@ -1,62 +1,29 @@
-<<<<<<< HEAD
-.nav-link {
-  color: white;
+.navbar{
+    background-color: #C70039
 }
-.navbar-brand {
-  color: white;
-}
-input[type="text"] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid white;
-  border-radius: 40px;
-  font-size: 16px;
-  background-color: white;
-  background-image: image("searchicon.png");
-  background-position: 8px 10px;
-  background-repeat: no-repeat;
-  margin-top: 5px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type="text"]:focus {
-  width: 100%;
-}
-
-.nav {
-  color: white;
-}
-
-.footer {
-  padding: 50px;
-}
-.container-footer {
-  background: #ffffff;
-  color: red;
-  height: 220px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container-footer-center {
-  color: red;
-  text-align: center;
-  margin-top: 5px;
-}
-=======
-
-
-
 .nav-link {
     color: white;
 }
 .navbar-brand{
     color: white;
+
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+p{
+    color: white;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.perfil{
+    margin-left: 30%;
+    
 }
 input[type=text] {
-    width: 130px;
+    width: 80px;
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 40px;
@@ -69,13 +36,14 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
+  input[type=text]::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+  }
   
   input[type=text]:focus {
     width: 100%;
   }
-
-
-
 
 .nav{
     color: white;
@@ -98,4 +66,3 @@ input[type=text] {
     text-align: center;
     margin-top: 5px;
 }
->>>>>>> cb80c7c079aa132c01e70487a50f80f49e87aa27
