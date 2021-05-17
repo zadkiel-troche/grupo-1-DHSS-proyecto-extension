@@ -1,14 +1,29 @@
-
-
-
+.navbar{
+    background-color: #C70039
+}
 .nav-link {
     color: white;
 }
 .navbar-brand{
     color: white;
+
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+p{
+    color: white;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.perfil{
+    margin-left: 30%;
+    
 }
 input[type=text] {
-    width: 130px;
+    width: 80px;
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 40px;
@@ -21,13 +36,14 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
+  input[type=text]::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+  }
   
   input[type=text]:focus {
     width: 100%;
   }
-
-
-
 
 .nav{
     color: white;
