@@ -8,80 +8,61 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 	<!-- Link CSS -->
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!-- Script de Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-<!--Aqui ira el menú de navegación-->
-<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-	<a class="navbar-brand" href="#">Aranduka</a>
-		<ul class="nav ml-auto">
-		 	<li class="nav-item">
-		    	<a class="nav-link" href="#">Inicio</a>
-		  	</li>
-		  	<li class="nav-item">
-		    	<a class="nav-link" href="#">Facultades</a>
-		  	</li>
-		  	<li class="nav-item">
-		    	<a class="nav-link" href="#">Proyectos</a>
-		  	</li>
-		  	<li class="nav-item">
-		    	<a class="nav-link " href="#">Nosotros</a>
-		  	</li>
-			<form class="form-inline" action="/action_page.php">
-		    	<input class="form-control mr-sm-2" type="text" placeholder="Buscar">
-		    	<button class="btn btn-success" type="submit">Buscar</button>
-		  	</form> 
-		    <li class="nav-item">
-		   		<a href="#" class="perfil">
-		    		<img src="imagenes/perfil.png" alt="Perfil" width="40" height="40">
-		        </a>
-		  	</li>
-		</ul>
-</nav>
+
 
 <!-- Aqui va la imagen principal de la página -->
 <div class="container">
 	<div class="imagen-princi">
 		<div class="text-center">
-	  		<img src="imagenes/grupo-alumnos.png" widht="150px" height="150px" class="rounded" alt="Imagen Alumnos">
+	  		<img src="imagenes/grupo-alumnos.png" widht="250px" height="250px" class="rounded" alt="Imagen Alumnos">
 		</div>
 	</div>
 </div>
 
-<div class="container">
+<!-- Seccion de las preguntas -->
+<div align="center">
+<div class="container-preguntas">
 	<div class="menudrop">
 		<h6 class="titulo-info">Preguntas frecuentes</h6>
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    ¿Quien tiene acceso a la biblioteca Virtual?
+			    <strong>¿Quien tiene acceso a la biblioteca Virtual?</strong>
 			</button>
-		  	<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+		  	<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
 		    <button class="dropdown-item" type="button">Para acceder al servicio es necesario crearse una cuenta de usuario</button>
 		  	</div>
 		</div>
-
+<br>
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    ¿Por qué no puedo ver el texto completo en un artículo?
+			    <strong>¿Por qué no puedo ver el texto completo en un artículo?</strong>
 			</button>
 		  	<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 		    <button class="dropdown-item" type="button">Pueden darse los siguientes casos: <br> 
 		    	<ul>
 		    		<li>Que la Biblioteca no tenga suscrita dicho articulo.</li>
-		    		<li>Que el periodico que tiene suscrita la Biblioteca Virtual no cubra el año del articulo en cuestión.</li>
+		    		<li>Que el periodico que tiene suscrita la Biblioteca Virtual no cubra el año del articulo en <br> cuestión.</li>
 		    	</ul>
 		    </button>
 		  	</div>
 		</div>
-
+<br>
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    ¿A quien me puedo dirigir para realizar una consulta sobre la Biblioteca <br> Virtual o para reportar un documento que da error?
+			    <strong>¿A quien me puedo dirigir para realizar una consulta sobre la Biblioteca <br> Virtual o para reportar un documento que da error?</strong>
 			</button>
 		  	<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 		    <button class="dropdown-item" type="button">Llamando de forma gratuita y de una línea baja al +595 71 20 54 54 <br> Llamando de un celular al +595 983 796 259 <br>Acercándose al departamento de "Atención al Alumno de la Universidad"</button>
 		  	</div>
 		</div>
 	</div>
+</div>
 </div>
 
 </body>

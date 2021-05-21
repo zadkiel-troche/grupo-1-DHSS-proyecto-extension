@@ -1,11 +1,13 @@
 body{
-<<<<<<< HEAD
-
 }
 
 .nav-link{
 	color: white;
 	font-size: 14pt; 
+}
+
+.imagen-princi{
+  margin-top: 70px;
 }
 
 .nav-link:hover{
@@ -24,9 +26,18 @@ body{
 }
 
 .menudrop{
-	align-content: center;
+	margin-top: 56px;
 	margin-left: 50px;
-	margin-right: 50px; 
+	margin-right: 50px;
+}
+
+.container-preguntas{
+  background: url(' cuadrado gris.jpg' );
+}
+
+.dropdown-item{
+  width: 684px;
+  height: 102px;
 }
 
 .btn-secondary{
@@ -36,11 +47,15 @@ body{
 #dropdownMenu2{
 	text-align: left;
 	align-items: center;
-	width: 550px;
-	height: 102px;	
+  width: 684px;
+  height: 102px;	
 	border-radius: 0px;
 	color: black;
 	background-color: white;
+}
+
+.titulo-info{
+  text-align: left;
 }
 
 .dropdown-toggle{
@@ -56,27 +71,6 @@ body{
     height:80%;
 
 }
-
-/*.trans{
-  display: block;
-    width: 100%;
-    height: 1000px;
-    border: 0px solid #ffffff;
-    background-image: url(https://freepikpsd.com/wp-content/uploads/2019/10/fondo-gris-png-transparente-1-300x226.png);
-    background-size: 1%;
-    opacity:2;
-}*/
-
-/*.bloque{
-    width: 550px;
-    height: 550px;
-    border: 0px solid #ffffff;
-    background-image: url(cuadrado.png);
-    margin-left: 35%;
-    margin-top: 150px; 
-    opacity: 0.5;
-    border-radius: 3%;
-}*/
 
 .login-box {
     position: absolute;
@@ -230,5 +224,103 @@ body{
       bottom: 100%;
     }
   }
+
   
->>>>>>> e8eea3287d4bff1b667b8f4e950333e14c5f4fe6
+/* probanodo el estilo del menu de navegacion */
+
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-image: image("searchicon.png");
+  background-position: 8px 10px;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+.nav {
+  color: white;
+}
+
+.footer {
+  padding: 50px;
+}
+.container-footer {
+  background: #ffffff;
+  color: red;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-footer-center {
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: image('searchicon.png');
+    background-position: 8px 10px; 
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+
+
+
+.nav{
+    color: white;
+}
+
+.footer{
+    padding: 50px;
+}
+.container-footer{
+    background: #FFFFFF;
+    color: red;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer-center{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
