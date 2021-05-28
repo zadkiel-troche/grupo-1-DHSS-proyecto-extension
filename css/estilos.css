@@ -1,0 +1,250 @@
+/* Estilo de footer o  pantalla-inicio */
+.navbar{
+  background-color: #C70039
+}
+.nav-link {
+  color: white;
+}
+.navbar-brand{
+  color: white;
+
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link:hover{
+  color:white;
+}
+
+.perfil{
+  margin-left: 30%;
+}
+
+input[type=text] {
+  width: 80px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-image: image('searchicon.png');
+  background-position: 8px 10px; 
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.nav{
+  color: white;
+  
+}
+.borde{
+  border-top: 1px solid #C23538;  
+}
+
+.list-unstyled{
+  text-align: left;
+}
+
+.bordecontact{
+  border-left: 1px solid #C23538;
+  border-right: 1px solid #C23538;
+}
+
+.row{
+  
+  margin-top: 50px;
+  margin-right: 0px;
+}
+
+
+/* Estilos preguntas-frecuentes */
+
+.imagen-princi{
+  position: relative;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 290px;
+  background: rgba(249,85,89,0.8);
+  border-radius: 40px;
+}
+
+.titulo{
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  color: white;
+}
+
+.dropdown{
+    width: 550px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+.menudrop{
+    margin-top: 56px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menudrop{
+  margin-left: 150px ;
+  margin-right: 150px ;
+  padding: 80px;
+  background: rgba(233,226,226,.5);
+  box-sizing: border-box;
+  border-radius: 5px;  
+}
+
+.dropdown-item{
+  width: 684px;
+  height: 102px;
+}
+
+.btn-secondary{
+    width: 550px;
+}
+
+#dropdownMenu2{
+    text-align: left;
+    align-items: center;
+  width: 684px;
+  height: 102px;    
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+}
+
+.titulo-info{
+  margin-left: 10px;
+  text-align: left;
+}
+
+.dropdown-toggle{
+    width: 20px;
+    height: 20px;
+    text-align: right;
+}
+
+  
+/* Estilo del menu de navegacion */
+
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+/*input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-image: image("searchicon.png");
+  background-position: 8px 10px;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}*/
+
+.nav {
+  color: white;
+}
+
+.footer {
+  padding: 50px;
+}
+.container-footer {
+  background: #ffffff;
+  color: red;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-footer-center {
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+/*input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: image('searchicon.png');
+    background-position: 8px 10px; 
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+
+*/
+
+.nav{
+    color: white;
+}
+
+.footer{
+    padding: 50px;
+}
+.container-footer{
+    background: #FFFFFF;
+    color: red;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer-center{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.destacado ul .carrera li {
+  color: red;
+}
+
+.parrafo p{
+  font-style: italic;
+}
+
+/* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */
