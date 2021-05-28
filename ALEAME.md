@@ -2,4 +2,4 @@
 Este es nuestro primer proyecto de extensión. DHSS
 
 
-No hagan commits hasta que se organice bien el github
+CONSULTEN A ZADKIEL ANTES DE HACER UN COMMIT PORFAVOR
