@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+-------------------------- ¡¡¡LEER IMPORTANTE!!! -----------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+El archivo "estilos.css" corresponde a las demás paginas ejemplo: 
+"pantalla-inicio.html", "preguntas-frcuentes.html"
+
+Excepto la "primer-pestaña.html" al cual le corresponde "estiloprinci.css"
+
+Esto para que no se encimen los estilos de cada página.
