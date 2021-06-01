@@ -4,7 +4,8 @@ body{
     background-image: url(unae.png);
     background-size: 100%
     height:80%;
-}
+  }
+
 
 .login-box {
     position: absolute;
@@ -18,6 +19,7 @@ body{
     border-radius: 5px;
   }
   
+
   .login-box h2 {
     margin: 0 0 30px;
     color: #C33538;
@@ -25,6 +27,7 @@ body{
     font-size: 18px;
     font-family: roboto thin;
   }
+
 
   .login-box h3 {
     margin: 0 0 110px;
@@ -34,10 +37,12 @@ body{
     font-size: 18px;
   }
   
+
   .login-box .user-box {
     position: relative;
   }
   
+
   .login-box .user-box h4 {
     margin: 0 0 30px;
     padding: 0;
@@ -45,6 +50,7 @@ body{
     text-align: center;
     font-size: 18px;
   }
+
 
   /*Revision*/
   .login-box .user-box label {
@@ -58,6 +64,7 @@ body{
     transition: .5s;
   }
   
+
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
     top: -20px;
@@ -65,6 +72,7 @@ body{
     color: #03e9f4;
     font-size: 12px;
   } /*Revision hasta aqui*/
+
 
   .login-box formulario {
     font-family: arial black;
@@ -78,6 +86,7 @@ body{
     overflow: hidden;
   }
   
+
   #boton {
     margin-left: 80px;
     border-radius: 100px;
@@ -85,4 +94,87 @@ body{
     font-family: arial black;
     border: 1px black;
     background: white;
+  }
+
+
+  /*estilo pagina 404*/
+  .error-404-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1300px;
+    height: 540px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(235,228,228,.8);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+
+  .error-404-box h2 {
+    margin-left: 285px;
+    transform: translate(-0%,250%);
+    color: #C33538;
+    text-align: justify;
+    font-size: 35px;  
+  }
+
+
+  .error-404-box h3 {
+    margin-left: 285px;
+    transform: translate(-0%,480%);
+    color: #C33538;
+    text-align: justify;
+    font-size: 20px;
+    font-family: raleway regular; 
+  }
+  
+
+  .error-404-box .user-box {
+    position: relative;
+  }
+  
+
+  /*Revision*/
+  .error-404-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+
+  .error-404-box .user-box input:focus ~ label,
+  .error-404-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  } /*Revision hasta aqui*/
+
+
+  .error-404-box formulario {
+    font-family: arial red;
+    border-radius: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 100px;
+    color: #C33538;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+
+  #boton-2 {
+    margin-left: 785px;
+    transform: translate(-0%,335%);
+    font-family: arial white;
+    background-color: #C33538;
+    border-color: #C33538; 
   }
