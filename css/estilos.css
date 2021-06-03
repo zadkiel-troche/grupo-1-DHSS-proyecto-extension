@@ -151,6 +151,7 @@ input[type=text]:focus {
 .uno{
    background-color: #245893;
    color: white;
+   margin-left: 10px;
 }
 .dos{
    background-color: #FFAB12;
@@ -168,5 +169,38 @@ input[type=text]:focus {
    background-color: #8774C8;
    color: white;
 }
+.uno a{
+  color: white;
+  text-decoration: none;
+}
+.dos a{
+  color: white;
+  text-decoration: none;
+}
+.tres a{
+  color: white;
+  text-decoration: none;
+}
+.cuatro a{
+  color: white;
+  text-decoration: none;
+}
+.cinco a{
+  color: white;
+  text-decoration: none;
+}
+#accordion{
+  margin-top: 56px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
+#accordion{
+margin-left: 70px ;
+margin-right: 70px ;
+padding: 80px;
+background: rgba(233,226,226,.5);
+box-sizing: border-box;
+border-radius: 5px;  
+}
 /* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */
