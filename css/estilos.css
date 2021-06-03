@@ -143,5 +143,30 @@ input[type=text]:focus {
     text-align: right;
 }
 
+/* Empieza Facultad*/
+.imagen{
+  margin-top: 20px;
+   text-align: center;
+}
+.uno{
+   background-color: #245893;
+   color: white;
+}
+.dos{
+   background-color: #FFAB12;
+   color: white;
+}
+.tres{
+   background-color: #FF122E;
+   color:white;
+}
+.cuatro{
+   background-color: #15613D;
+   color: white;
+}
+.cinco{
+   background-color: #8774C8;
+   color: white;
+}
 
 /* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */
