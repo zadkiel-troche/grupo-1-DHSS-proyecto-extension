@@ -203,4 +203,46 @@ background: rgba(233,226,226,.5);
 box-sizing: border-box;
 border-radius: 5px;  
 }
+
+/*css de la página de nosotros*/
+.imagen-xd{
+  position: relative;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 290px;
+  background: rgba(247,43,48);
+  border-radius: 50%;
+}
+
+
+.imagen-secu{
+  padding: 50px;
+  position: relative;
+  display: inline-block;
+  margin-left: px;
+  border-radius: 40px;
+}
+
+.titulono{
+  position: absolute;
+  top: 70px;
+  left: 120px;
+  color: white;
+}
+
+.titulo2{
+  position: absolute;
+  top: 240px;
+  left: 600px;
+  color: white;
+}
+
+.texto-cuerpo{
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 12px;
+}
+
+
+
 /* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */
