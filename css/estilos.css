@@ -203,4 +203,22 @@ background: rgba(233,226,226,.5);
 box-sizing: border-box;
 border-radius: 5px;  
 }
+
+/*Empieza proyecto historia*/
+.parrafo img{
+  width: 420px;
+  height: 440px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 15px;
+}
+
+/*proyecto de fotografia*/
+.parrafo2 img{
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 15px;
+}
 /* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */

@@ -2,10 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(unae.png);
-    background-size: 100%
+    background-size: 100%;
     height:80%;
   }
-
 
 .login-box {
     position: absolute;
