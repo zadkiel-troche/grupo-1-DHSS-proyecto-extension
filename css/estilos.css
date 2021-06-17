@@ -73,6 +73,48 @@ input[type=text]:focus {
   margin-right: 0px;
 }
 
+/* Hover de pantalla principal*/
+.hover-animation{
+	position:  relative;
+	height: 150px;
+	width: 150px;
+	margin:  10% auto 0;
+	color: #fff;
+}
+.hover-animation img{
+	position:  absolute;
+	left:  0;
+	width: 150px;
+	height: 150px;
+	transition: opacity 0.2s ease-in-out;
+}
+.hover-animation img.img-front:hover{
+	opacity: 0;
+	cursor:  pointer;
+}
+
+.col-xs-5,
+
+.col-sm-5,
+
+.col-md-5,
+
+.col-lg-5 {
+
+  min-height: 1px; 
+
+  position: relative;
+
+}
+
+.col-xs-5 {
+
+  float: left;
+
+  width: 20%;
+
+}
+
 
 /* Estilos preguntas-frecuentes */
 
@@ -204,7 +246,7 @@ box-sizing: border-box;
 border-radius: 5px;  
 }
 
-<<<<<<< HEAD
+
 /*Empieza proyecto historia*/
 .parrafo img{
   width: 420px;
@@ -222,7 +264,7 @@ border-radius: 5px;
   float: right;
   margin-right: 15px;
 }
-=======
+
 /*css de la página de nosotros*/
 .imagen-xd{
   position: relative;
@@ -264,5 +306,5 @@ border-radius: 5px;
 
 
 
->>>>>>> cec3281927e2ec04405642660d1853bb0bb4f395
+
 /* Agregar titulos de los estilos de su pagina como se ve en las lineas de codigo anteriores, para saber cual es su estilo */
