@@ -1,6 +1,17 @@
 /* Estilo de footer o  pantalla-inicio */
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  
+  
+}
+
+
 .navbar{
-  background-color: #C70039
+  background-color: #C70039;
+  height: 72px;
 }
 
 .nav-link {
