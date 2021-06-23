@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <title>Proyecto fotografia</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<title>Preguntas Frecuentes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link rel Bootstrap 4.0 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Tipografia secundaria Roboto Thin -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<!-- Link CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!-- Script de Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-<!-- NAVEGACION -->
+
+<!-- Aqui va el nav -->
 <nav class="navbar">
 		<a class="navbar-brand" href="primer-pestaña.html">Aranduka
 		 <img src="imagenes/libro blanco.png" alt="Perfil"width="32" height="32"></a>
@@ -32,61 +38,160 @@
 <form>
   <input type="text" name="search" placeholder="Buscar ">
 </form> 
-  <li classnav-item>
+  <li class="nav-item">
   <a href="#" class="perfil">
      <img src="imagenes/usuario.png" alt="Perfil" width="32" height="32">
   </a>
   </li>
   </ul>
-</nav>  
-<!--Empieza lo del body-->
-<div class="card">
-    <div class="card-body">
-      Proyecto de historia del arte
+</nav> 
+
+<!-- Aqui va la imagen principal de la página -->
+<div class="container">
+	<div class="imagen-princi">
+		<div class="text-center">
+	  		<img src="imagenes/grupo-alumnos.png" widht="250px" height="250px" class="rounded" alt="Imagen Alumnos">
+	  		<h1 class="titulo-pr">Proyecto</h1>
+		</div>
+	</div>
+</div>
+
+<!-- fila de columnas 1-->
+<div class="container">
+    <div class="row">
+        <div class=" col-sm">
+          <ul class="list-unstyled mb-3">
+          
+            <div class="hover-animation">
+                <img src="imagenes/imagenes-proyectos/1.2 Arquitectura A.jpg" alt="" class="img-back" width="150" height="100">
+                <img src="imagenes/imagenes-proyectos/1.2 Arquitectura B.jpg" alt="" class="img-front" width="150" height="100">
+              </div>
+          </ul>
+        </div>
+       
+        <div class=" col-sm">
+        
+    
+          <div class="hover-animation">
+            <img src="imagenes/imagenes-proyectos/1.3 Fotografia A.jpg" alt="" class="img-back" width="150" height="100">
+            <img src="imagenes/imagenes-proyectos/1.3 Fotografia B.jpg" alt="" class="img-front" width="150" height="100">
+          </div>
+        </div>
+    
+    
+        <div class="col-sm">
+          
+    
+          <div class="hover-animation">
+            <img src="imagenes/imagenes-proyectos/1.1 Historia del arte A.jpg" alt="" class="img-back" width="150" height="100">
+            <img src="imagenes/imagenes-proyectos/1.1 Historia del arte B.jpg" alt="" class="img-front" width="150" height="100">
+           </div>
+        </div>
+    
+    <div class="col-sm">
+    
+    
+   
+        <div class="hover-animation">
+            <img src="imagenes/imagenes-proyectos/1.4 Derecho A.jpg" alt="" class="img-back" width="150" height="100">
+            <img src="imagenes/imagenes-proyectos/1.4 Derecho B.jpg" alt="" class="img-front" width="150" height="100">
+          </div>
+    
+    </div>
+        <!--Grid column-->
+        <div class="col-sm">
+          
+          
+          <div class="hover-animation">
+            <img src="imagenes/imagenes-proyectos/1.5 Derecho Administrativo A.jpg" alt="" class="img-back" width="150" height="100">
+            <img src="imagenes/imagenes-proyectos/1.5 Derecho Administrativo B.jpg" alt="" class="img-front" width="150" height="100">
+          </div>
+            
+        </div>
+    
+        </div>
+</div>
+
+<!-- fila de columnas 2-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/2.1 Actividad Fisica A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/2.1 Actividad Fisica B.jpg" alt="" class="img-front" width="150" height="100">
     </div>
   </div>
-
-  <img src="imagenes/portada.png" class="img-fluid" alt="...">
-
-  <h1 style="text-align: center;">Proyecto fotografico</h1>
-  <div class="parrafo2">
-    <img src="imagenes/Rectángulo 286.png" class="rounded float-right" >
-  <p > “El proyecto fotográfico” es un boceto reflexivo sobre la fotografía que no tiene mas pretensiones, que ponerle palabras a modo de conversación a la forma en
-    que el fotógrafo se enfrenta a todo cuanto rodea su trabajo.
-    
-    </p>
-    
-    <p>Este pequeño ejercicio de introspección, esta tejido con la participación y amistad de seis fotógrafos que desde distintos puntos de vista y generaciones, aportan su visión basándose en la propia experiencia y trayectoria.
-    </p>
-    
-    <p> Existe una evolución en la carrera de todo fotógrafo que no sólo consiste en la composición y el encuadre a través de la cámara, sino a la hora de editar, colocar y ordenar el trabajo tanto en libros, publicaciones o en una exposición entre las mismas imágenes. Luis, me llama mucho la atención de estos elementos en los “polípticos”de tu trabajo.
-    </p>
-    
-    <p>
-        Esto es muy interesante porque, partiendo de la base del desconocimiento, al final los fotógrafos acabamos en el mismo punto de encuentro que otros fotógrafos han experimentado antes a lo largo de su carrera, una necesidad que de modo inherente llevamos dentro.
-</p>
-    <p> La obra de un fotógrafo se desarrolla a lo largo de toda una vida. Quizás por eso es muy difícil cerrar los trabajos compuestos por series fotográficas. Thomas, me interesa mucho el de bate sobre si una fotografía ha de hablar por sí sola, o si necesita el hilo conductor de más fo- tografías de una serie para justificar la intención fotográfica.
- 
-    </p>
-
-
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/2.2 Matematica A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/2.2 Matematica B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/2.3Medicina A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/2.3Medicina B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/2.4 Psicologia Social A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/2.4 Psicologia Social C.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/2.5 Literatura A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/2.5 Literatura B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+  </div>
 </div>
-    <p> Con relación al papel del aficionado, te comentaré algo que considero muy interesante cuando observamos “fotografías entre fotógrafos”, solemos hacer un barrido técnico a la imagen y al significado que encontramos, mientras que un neófito en fotografía sólo juzga con más o menos criterio lo que le produce emocionalmente, tan sólo la impresión que encuentra. ¿Podríamos hablar de la fotografía como un lenguaje con distintos dialectos?
-    </p>
+</div>
+<!-- fila de columnas 3-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/3.1 Creatividad A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/3.1 Creatividad B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/3.2 Periodismo A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/3.2 Periodismo B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/3.3 Proyecto hombre A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/3.3 Proyecto hombre B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/3.4 Disenho de modas A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/3.4 Disenho de modas AA.png" alt="" class="img-front" width="150" height="100">
+    </div>
+    </div>
+    <div class="col-sm">
+      <div class="hover-animation">
+      <img src="imagenes/imagenes-proyectos/3.5 Conectividad trabajo A.jpg" alt="" class="img-back" width="150" height="100">
+      <img src="imagenes/imagenes-proyectos/3.5 Conectividad trabajo B.jpg" alt="" class="img-front" width="150" height="100">
+    </div>
+  </div>
+</div>
+</div>
 
-    <p> Claro, por eso es interesante el saber cómo piensa el fotógrafo si quiere profundizar en un tema conceptual como serie, o si el concepto es fruto de esa selección generosa a lo largo de los años.
-    </p>
 
-    <p> La gran mayoría de fotógrafos siguen una corriente establecida, sobre todo en el mercado de galerías de arte. Y que, por lo tanto, son menos los que emprenden líneas de trabajo más novedosas o arriesgadas, con menos salidas, pero por ello no menos interesantes. De hecho, en las apuestas arriesgadas es donde surge el “cambio” como acontecimiento.</p>
-    <p>  Con relación a tu “cámara cutre”, has trabajado con distintos formatos y modelos Por una parte, podríamos hacer mención a la calidad que muchos equipos pueden dar a la obra un valor estético superior. Pero realmente tu discurso está mas orientado a la obra como documento y su lectura visual. ¿Hasta qué punto crees que el artista, artesano, creador, ha de priorizar su trabajo al equipo?
-    </p>
-    <p> Christine, también llevas muchos años fotografiando bodegones en color. En ellos plasmas tus inquietudes más intimas y personales a través de fotografías de época, flores, objetos personales, recortes, etc. Incluso en estos bodegones y través de la evolución de los tonos y colores que empleas, se puede observar tu acercamiento a la calidez. ¿Es un acercamiento a ti misma, en este mundo actual en que las guerras pueden llegar por vídeo al consumidor al momento en su propio teléfono?</p>
-    
-    <button type="button" class="btn btn-danger" ">Ir a lista de proyectos</button>
 
-<!-- inicio del Footer -->
+<br>
+<br>
+
+<!-- Footer -->
 <footer class=" text-center text-lg-start">
-  <div class="borde">
+ 	<div class="borde">
+ 
       <div class="row">
         <div class="col-sm-4">
           <h5 class="text-uppercase"></h5>
@@ -110,7 +215,7 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="primer-pestaña.html" style="color:#C23538; text-decoration: none;">Aranduka</a>
+              <a href="primer-pestaña.html" style="color:#C23538; text-decoration: none; ">Aranduka</a>
               <a href="facultad.html" style="color:#C23538; text-decoration: none;">Facultades</a>
             </li>
           
@@ -206,3 +311,4 @@
     <!-- Copyright -->
 </footer>
 </body>
+</html>
