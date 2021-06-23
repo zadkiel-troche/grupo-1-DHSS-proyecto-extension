@@ -8,7 +8,6 @@ header {
   
 }
 
-
 .navbar{
   background-color: #C70039;
   height: 72px;
@@ -37,17 +36,18 @@ header {
   margin-left: 30%;
 }
 
+
 input[type=text] {
-  width: 80px;
+  width: 50px;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 40px;
-  font-size: 16px;
+  font-size: 10px;
   background-color: white;
   background-image: image('searchicon.png');
   background-position: 8px 10px; 
   background-repeat: no-repeat;
-  margin-top: 5px;
+  margin-top: 10px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
@@ -55,10 +55,11 @@ input[type=text] {
 input[type=text]::placeholder {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
+  color: darkred;
 }
 
 input[type=text]:focus {
-  width: 100%;
+  width: 100px;
 }
 
 .nav{
