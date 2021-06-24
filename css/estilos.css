@@ -116,7 +116,13 @@ input[type=text]:focus {
 
 
 
-
+/* Estilos declaracion-privacidad*/
+.privacidad{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 100px; 
+  margin-top: 40px;
+}
 /* Estilos preguntas-frecuentes */
 
 .imagen-princi{
