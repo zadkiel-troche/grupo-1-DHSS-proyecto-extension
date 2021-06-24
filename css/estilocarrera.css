@@ -1,91 +1,19 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(https://cdn.discordapp.com/attachments/817197723010859049/841071044315054140/ale.png);
-    background-size: 100%
-    height:80%;
-
-}
-
-
-
-
-/*.trans{
-  display: block;
-    width: 100%;
-    height: 1000px;
-    border: 0px solid #ffffff;
-    background-image: url(https://freepikpsd.com/wp-content/uploads/2019/10/fondo-gris-png-transparente-1-300x226.png);
-    background-size: 1%;
-    opacity:2;
-}*/
-
-/*.bloque{
-    width: 550px;
-    height: 550px;
-    border: 0px solid #ffffff;
-    background-image: url(cuadrado.png);
-    margin-left: 35%;
-    margin-top: 150px; 
-    opacity: 0.5;
-    border-radius: 3%;
-}*/
-
-
-.cuadro{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 600px;
-    height: 300px;
-    transform: translate(-50%, -50%);
-    background: rgba(3,4,0,.8);
-    background-color: white;
-    box-sizing: border-box;
-    border-radius: 15px; 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    
+html {
+    height: 100%;
   }
+/* Aqui agregamos el body */
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    background: linear-white;
+  }
+/* Aquí tenemos el cuadro de botones */
   
-.cuadro p{
-   margin: 0 0 50px;
-  transform: translate(-0%,90%);
-  font-size: 15px;
-  
- 
-    
-   
-  
-}
-.cuadro h6{
-  transform: translate(-0%,200%);
-  color: #000;
-  text-shadow: #555 0px 0px 0px; 
-}
-
-.botom{
- position: absolute; 
- left: 47%; 
- transform: translate(-30%, -70%);
- font-family: Montserrat;
- font-style: normal;
- font-weight: normal;
- font-size: 100px; 
-
-}
-.botom a{
-text-decoration: none;
-color:black;
- 
-}
-
-
-.login-box {
+  .button{
     position: absolute;
-    top: 50%;
+    top: 50%; 
     left: 50%;
     width: 400px;
     padding: 40px;
@@ -96,18 +24,18 @@ color:black;
     border-radius: 10px;
   }
   
-  .login-box h2 {
+  .button -box h2 {
     margin: 0 0 30px;
     padding: 0;
     color:#ff122e;
     text-align: center;
   }
   
-  .login-box .user-box {
+  .Button.button-box {
     position: relative;
   }
   
-  .login-box .user-box input {
+  .button -box .button-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -118,7 +46,7 @@ color:black;
     outline: transparent;
     background: transparent;
   }
-  .login-box .user-box label {
+  .button -box .user-box label {
     position: absolute;
     top:0;
     left: 0;
@@ -129,15 +57,14 @@ color:black;
     transition: .5s;
   }
   
-  .login-box .user-box input:focus ~ label,
-  .login-box .user-box input:valid ~ label {
+   button - box{
     top: -20px;
     left: 0;
     color: #03e9f4;
     font-size: 12px;
   }
   
-  .login-box form a {
+  .button -box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -151,17 +78,17 @@ color:black;
     letter-spacing: 4px
   }
   
-  .login-box a:hover {
+  .button-box a:hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
   
-  .login-box a span {
+  .button-box a span {
     position: absolute;
     display: block;
   }
   
-  .login-box a span:nth-child(1) {
+  .button-box a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -179,7 +106,7 @@ color:black;
     }
   }
   
-  .login-box a span:nth-child(2) {
+  .button-box a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -198,7 +125,7 @@ color:black;
     }
   }
   
-  .login-box a span:nth-child(3) {
+  .button-box a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -217,7 +144,7 @@ color:black;
     }
   }
   
-  .login-box a span:nth-child(4) {
+  .button-box a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -236,3 +163,57 @@ color:black;
     }
   }
   
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+}
+
+.myButton:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffab23;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.bouncy{
+animation:bouncy 5s infinite linear;
+position:relative;
+}
+  
+.bouncy2{
+animation:bouncy 3s infinite linear;
+position:relative;
+}
+  
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+}
+  
+  
+.btn-group .btn {
+  width: 30%;
+}
+  
+.btn-group {
+  width: 100%;
+}
