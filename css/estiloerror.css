@@ -74,6 +74,12 @@ body{
  font-style: normal;
  font-weight: normal;
  font-size: 100px; 
+
+}
+.botom a{
+text-decoration: none;
+color:black;
+ 
 }
 
 

@@ -339,23 +339,105 @@ border-radius: 5px;
 }
 
 
-/*Empieza proyecto historia*/
-.parrafo img{
-  width: 420px;
-  height: 440px;
-  border-radius: 5px;
-  float: right;
-  margin-right: 15px;
-}
-
-/*proyecto de fotografia*/
+/*Empieza proyecto de historia y fotografia*/
 .parrafo2 img{
   width: 400px;
   height: 300px;
   border-radius: 5px;
   float: right;
-  margin-right: 15px;
+ 
 }
+.parrafo2{
+  margin-right: 20px;
+  
+  margin-left: 20px;
+
+
+}
+
+.parrafo3{
+  margin-right: 20px;
+  
+  margin-left: 20px;
+
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 100px;
+  size: 100px;
+}
+
+#form p {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+
+}
+
+#form label {
+  font-size: 20px;
+  margin-right: 15px;
+  
+}
+
+input[type="radio"] {
+  display: none;
+  
+}
+
+label {
+  color: grey;
+
+  font-size: 45px;
+  
+}
+
+.clasificacion {
+  margin-right: 50px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.comentarios{
+  margin-left: 15px;
+}
+
+.button, a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  outline: inherit;
+ 
+  
+}
+.button, a:hover{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  outline: inherit;
+  
+}
+.contenedorp{
+  display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+    width:100%;
+
+}
+
+
 
 /*css de la página de nosotros*/
 .imagen-xd{

@@ -13,6 +13,7 @@
 </head>
 <body>
 <!-- NAVEGACION -->
+<header>
 <nav class="navbar">
 		<a class="navbar-brand" href="primer-pestaña.html">Aranduka
 		 <img src="imagenes/libro blanco.png" alt="Perfil"width="32" height="32"></a>
@@ -39,10 +40,12 @@
   </li>
   </ul>
 </nav>  
+</header>
 <!--Empieza lo del body-->
 <div class="card">
     <div class="card-body">
-      Proyecto de historia del arte
+    
+      <p><a href="change-underline-color.php" style="text-decoration: none; border-bottom: 1px solid yellow; color: #000000;"><br><br><br><strong>Proyecto de historia del arte</strong></a>
     </div>
   </div>
 
@@ -73,7 +76,45 @@
     <p>Por último comentar que nos encontramos con las dificultades de carácter tecnológicas/informáticas más habituales en este tipo de actividades, ya que, aunque en general el alumnado posee una alta alfabetización digital, siempre existen casos en los que procedimientos más complejos como la creación del blog, o la generación del código QR van a presentar un obstáculo o dificultad añadida. Concretamente, una de las mayores dificultades, la encontramos en cómo insertar vídeos y audios sobre el código HTML de blogger (que fue la plataforma que casi todos usaron para crear su material didáctico).</p>
     
     
-    <button type="button" class="btn btn-danger" ">Ir a lista de proyectos</button>
+    <div class="contenedorp">
+      <div style = "float: left" class="comentarios">
+        <h3><u>Agrega un comentario</u></h3>
+        <p><strong>AZUCENA REYES JEREZ</strong><br>
+          Hace 2 meses<br>
+          Excelente, gracias por tan buena información.  Se lo estoy recomendando a mis hijos,<br>
+           por sus grandes enseñanzas.
+          </p>
+          <p><strong>Socorro Bolio M.</strong><br>
+            Hace 2 meses<br>
+            Felicidades por este documental ☺️ completamente sensacional, fue un gran viaje al<br>
+             pensamiento renacentista de los artistas.</p>
+      </div>
+    <div style = "float: right" align="right">
+      <form>
+        <p class="clasificacion">
+          <input id="radio1" type="radio" name="estrellas" value="5"><!--
+          --><label for="radio1">★</label><!--
+          --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+          --><label for="radio2">★</label><!--
+          --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+          --><label for="radio3">★</label><!--
+          --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+          --><label for="radio4">★</label><!--
+          --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+          --><label for="radio5">★</label>
+        </p>
+      </form>
+    </div>
+    
+    </div>
+  <div align="center">
+    
+      <button type="button" class="btn btn-danger boton "><a href=proyecto.html>Ir a lista de proyectos</a></button>
+    </div>
+  
+  
+  <br>
+  <br>
 
 <!-- inicio del Footer -->
 <footer class=" text-center text-lg-start">
@@ -191,8 +232,7 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" >
-      <p style="color: #C23538;">DIRECCIÓN: Padre Kreusser, entre Honorio Gonzalez e Independencia Nacional</p>
-      <p style="color: #C23538;">Encarnacion - Itapúa - Paraguay</p>
+      <p style="color: #C23538;">DIRECCIÓN: Padre Kreusser, entre Honorio Gonzalez e Independencia Nacional<br>Encarnacion - Itapúa - Paraguay</p>
     </div>
     <!-- Copyright -->
 </footer>
