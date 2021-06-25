@@ -1,3 +1,16 @@
+@media screen and {min-width: 480px ;
+  
+}
+
+@media screen and {min-width: 767px ;
+  
+}
+
+@media screen and {min-width: 950px ;
+  
+}
+
+
 html {
   height: 100%;
 }
@@ -93,3 +106,14 @@ body{
   left: 115px;
   width: 80px;
 }
+#boton {
+  margin-left: 106px;
+  border-radius: 100px;
+  width: 100px;
+  color: #C33538;
+  font-family: arial black;
+  border: 1px black;
+  background: white;
+  margin-top: 5px;
+}
+
