@@ -2,7 +2,7 @@ html {
     height: 100%;
   }
 /* Aqui agregamos el body */
-
+/*
   body {
     margin:0;
     padding:0;
@@ -10,7 +10,7 @@ html {
     background: linear-white;
   }
 /* Aquí tenemos el cuadro de botones */
-  
+  /*
   .button{
     position: absolute;
     top: 50%; 

@@ -27,6 +27,15 @@ html {
     box-sizing: border-box;
     border-radius: 10px;
   }
+
+.nuev{
+  color: white;
+  position: absolute;
+  bottom: 77%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%);
+}
   
   .login-box h4 {
     margin: 0 0 30px;
@@ -35,14 +44,44 @@ html {
     color:white;
     text-align: left;
   }
+
   input[type=text] {
-    
-  
-    border: 2px solid white;
-    border-radius: 40px;
-    font-size: 25px;
+    text-align: center;
+    border: none;
+    outline: none; 
+    border-radius: 5px;
+    font-size: 15px;
     background-color: white;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
   }
- 
- 
-  
+
+.btn {
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+button[type=button]{
+  color: grey;
+  background: white;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+button[type=button] a{
+  color: grey;
+  text-decoration: none;
+}
+
+button[type=button]:hover{
+  color: grey;
+  background: white;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}

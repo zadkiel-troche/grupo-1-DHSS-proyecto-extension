@@ -21,7 +21,6 @@ footer{
     background-attachment: fixed;
   }
 
-
 .navbar{
   background-color: #C70039;
   height: 72px;
@@ -249,6 +248,12 @@ input[type=text]:focus {
   border-bottom: 4px solid #FFAB12;
 }
 
+.titulo-in{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  border-bottom: 4px solid black;
+}
 
 .dropdown-toggle{
     width: 20px;
